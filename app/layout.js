@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.brewhaven.com"),
+  metadataBase: new URL("https://cafe-brew-haven.vercel.app"),
 
   title: {
     default: "Brew Haven | Premium Coffee & Artisan Café",
@@ -72,7 +72,7 @@ export const metadata = {
     description:
       "Experience handcrafted coffee, artisan pastries, and exceptional hospitality in a warm and inviting atmosphere.",
 
-    url: "https://www.brewhaven.com",
+    url: "https://cafe-brew-haven.vercel.app",
 
     siteName: "Brew Haven",
 
@@ -127,9 +127,9 @@ export default function RootLayout({ children }) {
 
               name: "Brew Haven",
 
-              url: "https://www.brewhaven.com",
+              url: "https://cafe-brew-haven.vercel.app",
 
-              image: "https://www.brewhaven.com/og-image.jpg",
+              image: "https://cafe-brew-haven.vercel.app/og-image.jpg",
 
               telephone: "+918372992290",
 

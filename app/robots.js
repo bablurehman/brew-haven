@@ -4,7 +4,7 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-
-    sitemap: "https://www.brewhaven.com/sitemap.xml",
+    sitemap:
+      "https://cafe-brew-haven.vercel.app/sitemap.xml",
   };
 }
