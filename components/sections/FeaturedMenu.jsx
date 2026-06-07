@@ -1,32 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { featuredItems } from "@/data/featuredMenu";
 
-const featuredItems = [
-  {
-    id: 1,
-    name: "Signature Cappuccino",
-    price: "$5.99",
-    image: "/images/menu/cappuccino.jpg",
-    description:
-      "Rich espresso blended with silky steamed milk and topped with velvety foam.",
-  },
-  {
-    id: 2,
-    name: "Caramel Latte",
-    price: "$6.99",
-    image: "/images/menu/latte.jpg",
-    description:
-      "Smooth espresso infused with caramel sweetness and creamy steamed milk.",
-  },
-  {
-    id: 3,
-    name: "Chocolate Croissant",
-    price: "$4.99",
-    image: "/images/menu/croissant.jpg",
-    description:
-      "Freshly baked buttery croissant filled with premium chocolate.",
-  },
-];
 
 export default function FeaturedMenu() {
   return (

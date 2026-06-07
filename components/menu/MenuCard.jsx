@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MenuCard({ item }) {
   return (
@@ -97,6 +98,14 @@ export default function MenuCard({ item }) {
         >
           {item.description}
         </p>
+
+        <Link
+                  href="/contact"
+                  className="inline-block mt-4 text-amber-600 font-semibold hover:text-amber-700 transition cursor-pointer"
+                >
+                  Order Now
+                </Link>
+
       </div>
     </article>
   );
