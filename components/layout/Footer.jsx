@@ -175,7 +175,7 @@ export default function Footer() {
       href="https://bablurehman.in/"
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:text-amber-500 transition"
+      className="text-amber-200  hover:text-amber-500 transition"
     >
       Bablu Rehman
     </a>
@@ -184,7 +184,7 @@ export default function Footer() {
   <div className="flex gap-6">
     <Link
       href="/privacy-policy"
-      className="text-amber-300 hover:text-amber-500 transition"
+      className="hover:text-amber-500 transition"
     >
       Privacy Policy
     </Link>
