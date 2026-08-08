@@ -167,21 +167,33 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="border-t border-neutral-800 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
-          <p>© {new Date().getFullYear()} Brew Haven. All Rights Reserved.</p>
+  <p>© {new Date().getFullYear()} Brew Haven. All Rights Reserved.</p>
 
-          <div className="flex gap-6">
-            <Link
-              href="/privacy-policy"
-              className="hover:text-amber-500 transition"
-            >
-              Privacy Policy
-            </Link>
+  <p>
+    Developed & SEO by{" "}
+    <a
+      href="https://bablurehman.in/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-amber-500 transition"
+    >
+      Bablu Rehman
+    </a>
+  </p>
 
-            <Link href="/terms" className="hover:text-amber-500 transition">
-              Terms of Service
-            </Link>
-          </div>
-        </div>
+  <div className="flex gap-6">
+    <Link
+      href="/privacy-policy"
+      className="hover:text-amber-500 transition"
+    >
+      Privacy Policy
+    </Link>
+
+    <Link href="/terms" className="hover:text-amber-500 transition">
+      Terms of Service
+    </Link>
+  </div>
+</div>
       </div>
     </footer>
   );
