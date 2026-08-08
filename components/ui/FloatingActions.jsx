@@ -29,7 +29,7 @@ export default function FloatingActions() {
 
       <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3">
         <a
-          href="tel:+15551234567"
+          href="tel:+918372992290"
           aria-label="Call us"
           className="
             flex
@@ -51,7 +51,7 @@ export default function FloatingActions() {
         </a>
 
         <a
-          href="https://wa.me/15551234567"
+          href="https://wa.me/+918372992290"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp us"
